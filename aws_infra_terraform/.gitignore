@@ -1,0 +1,11 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+*.tfplan.binary
+.terraform.d/
+.terraform/providers/
+.miss 
