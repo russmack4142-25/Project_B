@@ -8,4 +8,5 @@ crash.log
 *.tfplan.binary
 .terraform.d/
 .terraform/providers/
-.miss 
+*.terraform.tfvars
+
