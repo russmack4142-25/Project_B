@@ -32,7 +32,7 @@ variable "apps" {
   default     = [ "cat-app", "currency-app", "potter-app" ]
 }
 
-variable "argocd-github-token" {
+variable "argocd-github-token-dev" {
   type = string
   sensitive = true
   description = "GitHub token to store in SSM for ArgoCD HTTPS access"
@@ -42,6 +42,7 @@ variable "argocd-github-token" {
 variable "environment" {
   type = string
   description = "Deployment environment"
+  default = "dev"
 }
 
 variable "cluster_name" {
